@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.screen{
+    height: 100vh;
+    width: 100%;
+    background: rgba(228, 104, 228, 0.386);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons a{
+    height: 100px;
+    width: 100px;
+    display: inline-flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+    font-size: 40px;
+    background: #fff;
+    margin: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    
+     background-size: 100% 200%;  /*phele wid fr height */
+    background-position: 0% 5%;
+    transition: background-position 0.5s, color 0.5s;
+}
+
+.icons a:nth-child(1){
+    color: #1976d3;
+    background-image: linear-gradient(#fff 50%, #1976d3 50%);
+}
+
+.icons a:nth-child(2){
+    color: #f44236;
+    background-image: linear-gradient(#fff 50%, #f44236 50%);
+}
+
+.icons a:nth-child(3){
+    color: #03a9f5;
+    background-image: linear-gradient(#fff 50%, #03a9f5 50%);
+}
+
+.icons a:hover{
+    background-position: 0% 100%;
+    color: #fff;
+
+}
+
+.icons p:hover{
+    color: black;
+    background-size:auto
+}
